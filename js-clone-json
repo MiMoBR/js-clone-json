@@ -1,0 +1,13 @@
+const personA = {
+    name:'Reinaldo',
+    age:'38'
+}
+
+const clone = JSON.parse(JSON.stringify(personA));
+
+console.log(clone)
+
+{name: "Reinaldo", age: "38"}
+name: "Reinaldo"
+age: "38"
+__proto__: Object
